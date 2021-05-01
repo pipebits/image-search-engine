@@ -1,5 +1,5 @@
-const requestImage = require("./request")
-const parser = require("./parser")
+const requestImage = require("./src/request.js")
+const parser = require("./src/parser.js")
 
 /**
  * @param {String} query Query to search
