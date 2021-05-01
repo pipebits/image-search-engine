@@ -1,0 +1,28 @@
+{
+    "size":{
+        "large":"isz:l",
+        "medium":"isz:m",
+        "small":"isz:i"
+    },
+    "color":{
+        "b&w":"ic:gray",
+        "transparent":"ic:trans",
+        "red":"ic:specific%2Cisc:red",
+        "orange":"ic:specific%2Cisc:orange",
+        "yellow":"ic:specific%2Cisc:yellow",
+        "green":"ic:specific%2Cisc:green",
+        "teal":"ic:specific%2Cisc:teal",
+        "blue":"ic:specific%2Cisc:blue",
+        "purple":"ic:specific%2Cisc:purple",
+        "pink":"ic:specific%2Cisc:pink",
+        "white":"ic:specific%2Cisc:white",
+        "gray":"ic:specific%2Cisc:gray",
+        "black":"ic:specific%2Cisc:black",
+        "brown":"ic:specific%2Cisc:brown"
+    },
+    "type":{
+        "cp":"itp:clipart",
+        "ld":"itp:lineart",
+        "gf":"itp:animated"
+    }
+}

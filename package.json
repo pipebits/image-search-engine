@@ -1,0 +1,21 @@
+{
+  "name": "image-search-engine",
+  "version": "1.0.2",
+  "description": "Lets you get the url of a image of any querry",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "discord",
+    "image",
+    "google",
+    "finder"
+  ],
+  "author": "pipebits",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^6.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
