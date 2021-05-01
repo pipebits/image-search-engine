@@ -1,6 +1,6 @@
 {
   "name": "image-search-engine",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Lets you get the url of a image of any querry",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,14 @@
   ],
   "author": "pipebits",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipebits/image-search-engine/issues"
+  },
+  "homepage": "https://github.com/pipebits/image-search-engine#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "htmlparser2": "^6.1.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
   }
 }
