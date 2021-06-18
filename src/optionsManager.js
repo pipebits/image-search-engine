@@ -9,13 +9,13 @@ function checkUnd(item, err){
 
 function parseOptions(options){
     var config = [];
-    if(options?.size){
+    if(options.size){
         config.push(checkUnd(opIndex.size[options.size.toLowerCase()], `"${options.size}" is not a size option`))
     }
-    if(options?.color){
+    if(options.color){
         config.push(checkUnd(opIndex.color[options.color.toLowerCase()], `"${options.color}" is not a color option`))
     }
-    if(options?.type){
+    if(options.type){
         config.push(checkUnd(opIndex.type[options.type.toLowerCase()], `"${options.type}" is not a type option`))
     }
     /*if(options?.time){
